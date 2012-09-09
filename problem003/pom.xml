@@ -15,13 +15,19 @@
 	<description>The prime factors of 13195 are 5, 7, 13 and 29.
 
 What is the largest prime factor of the number 600851475143 ?</description>
-	
-	
+
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<build>
+	
+		<resources>
+			<resource>
+				<directory>src/main/resource</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -29,5 +35,5 @@ What is the largest prime factor of the number 600851475143 ?</description>
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>

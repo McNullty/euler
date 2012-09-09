@@ -9,7 +9,7 @@
 		</encoder>
 	</appender>
 
-	<logger name="hr.in2" level="info" />
+	<logger name="hr.in2" level="debug" />
 
 	<root level="info">
 
