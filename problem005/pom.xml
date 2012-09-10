@@ -8,17 +8,19 @@
 		<groupId>hr.in2.project</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
-	<artifactId>problem004</artifactId>
-	<name>problem004</name>
 
-	<description>A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
-
-Find the largest palindrome made from the product of two 3-digit numbers.</description>
+	<artifactId>problem005</artifactId>
+	<name>problem005</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<description>
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+	</description>
 
 	<build>
 		<resources>
@@ -26,7 +28,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.</descr
 				<directory>src/main/resource</directory>
 			</resource>
 		</resources>
-		
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -34,5 +36,4 @@ Find the largest palindrome made from the product of two 3-digit numbers.</descr
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
