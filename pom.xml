@@ -20,7 +20,9 @@
 	</modules>
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/McNullty/euler.git</developerConnection>
+		<connection>scm:git:git@github.com:McNullty/euler.git</connection>
+		<url>scm:git:git@github.com:McNullty/euler.git</url>
+		<developerConnection>scm:git:git@github.com:McNullty/euler.git</developerConnection>
 	</scm>
 
 	<url>http://projecteuler.net</url>
