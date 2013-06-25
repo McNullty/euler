@@ -1,6 +1,5 @@
 package hr.in2.project.euler.problem005;
 
-import java.util.NavigableSet;
 import java.util.TreeSet;
 
 import org.slf4j.Logger;
