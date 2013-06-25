@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>hr.in2.project</groupId>
 	<artifactId>euler</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<prerequisites>
@@ -24,7 +24,7 @@
 		<connection>scm:git:git@github.com:McNullty/euler.git</connection>
 		<url>scm:git:git@github.com:McNullty/euler.git</url>
 		<developerConnection>scm:git:git@github.com:McNullty/euler.git</developerConnection>
-	  <tag>euler-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
