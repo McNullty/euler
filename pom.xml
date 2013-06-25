@@ -19,13 +19,20 @@
 		<module>problem011</module>
 	</modules>
 
+	<url>http://projecteuler.net</url>
+
 	<scm>
 		<connection>scm:git:git@github.com:McNullty/euler.git</connection>
 		<url>scm:git:git@github.com:McNullty/euler.git</url>
 		<developerConnection>scm:git:git@github.com:McNullty/euler.git</developerConnection>
 	</scm>
 
-	<url>http://projecteuler.net</url>
+	<distributionManagement>
+		<repository>
+			<id>maven-repository</id>
+			<url>file:///home/mladenc/.m2/repository/maven-repository/</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<pluginManagement>
